@@ -1,0 +1,11 @@
+name: LightningOnDeath
+version: '1.0-SNAPSHOT'
+main: Kxysl1k.boltlightDed.LightningOnDeath
+api-version: '1.21'
+prefix: [ Command ]
+load: STARTUP
+authors: [ Kxysl1k ]
+description: Add custom command in paper 1.21
+website: https://kxysl1k.netlify.app/
+on death of player:
+  strike lightning at victim
